@@ -4,7 +4,7 @@ supported_targets:
 
 extensions:
   avocado-bsp-rzv2n-sr-som:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: Board support for the SolidRun RZ/V2N SoM on HummingBoard IIOT
     description: Board support for the SolidRun RZ/V2N SoM on HummingBoard IIOT
@@ -28,4 +28,4 @@ extensions:
       linux-firmware-sr-rz-cyw43455: '*'
 
 sdk:
-  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}-{{ env.AVOCADO_DISTRO_CHANNEL }}
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
