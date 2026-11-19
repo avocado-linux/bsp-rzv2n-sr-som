@@ -9,7 +9,7 @@ extensions:
     summary: Board support for the SolidRun RZ/V2N SoM on HummingBoard IIOT
     description: Board support for the SolidRun RZ/V2N SoM on HummingBoard IIOT
     license: Apache-2.0
-    url: https://github.com/avocadolinux/avocado-os
+    url: https://github.com/avocado-linux/bsp-rzv2n-sr-som
     vendor: Avocado Linux <info@avocadolinux.org>
 
     types:
